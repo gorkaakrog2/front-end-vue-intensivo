@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+}
+
+form {
+  background-color: antiquewhite;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 1px 2px 7px rgba(0,0,0,0.1);
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  top: 275px;
+  width: 200px;
+}
+
+input {
+  /* Para iPhone */
+  -webkit-appearance: none;
+
+  appearance: none;
+  display: block;
+  font-family: monospace;
+}
+
+input[type="text"] {
+  border: none;
+  padding: 6px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  border-bottom: 1px solid #333;
+  border-radius: 10px;
+  color: #333;
+  margin-top: 10px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.error {
+  margin-top: 10px;
+  color: crimson;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: white;
+  font-size: 3em;
+  padding: 18px;
+  text-align: center;
+  text-shadow: 2px 2px 0 #333;
+}
